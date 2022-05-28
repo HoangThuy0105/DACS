@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>Giỏ hàng</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        <link rel="stylesheet" type= "text/css" href="../style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </HEAD>
+    <BODY>
+        <!-- nav -->
+
+      <nav class="navbar navbar-expand-sm bg-dark justify-content-center" style = "padding-top:0px; padding-bottom:0px">
+        <ul class="navbar-nav nav1">
+          <li class="nav-item" style = "margin-right: 30px;">
+            <a class="nav-link" href="hotline.html">Hotline: 0968604438 (8h - 12h, 13h30 - 17h)</a>
+          </li>
+          <li class="nav-item" style = "margin-right: 30px;">
+            <a class="nav-link" href="lienhe.html">Liên hệ</a>
+          </li>
+          <li class="nav-item" style = "margin-right: 30px;">
+            <a class="nav-link" href="donhang.html">Kiểm tra đơn hàng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Đăng nhập</a>
+          </li>  
+          <li style = "color: white; padding-top:6px">&#x2502</li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Đăng kí</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top shadow-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar" style = "padding-top:0px; padding-bottom:0px">
+          <a class="navbar-brand" href="#"><img src = "Images/logo.png" style = "width:100px; height:70px"></a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Trangchu.html" style = "color: black; font-size:20px">Trang chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product-male.html" style = "color: black; font-size:20px">Nam</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Product-female.html" style = "color: black; font-size:20px">Nữ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style = "color: black; font-size:20px">Giảm giá</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style = "color: black; font-size:20px">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style = "color: black; font-size:20px">Giới thiệu</a>
+            </li>
+          </ul>
+          <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Nhập thông tin cần tìm..." style = "margin-left: 20px;">
+            <button class="btn btn-dark" type="submit" style = "margin-right: 40px;">
+              <i style = "font-size:18px;margin-top: 5px;" class="fas fa-search"></i>
+            </button>
+            <ul class="navbar-nav">
+              <li>
+                <i style = "font-size:26px;margin-top:3px" class="fas fa-user"></i>
+              </li>
+              <li>
+                <i style = "margin-left: 10px; font-size:26px;margin-top:3px" class="far fa-heart"></i>
+              </li>
+              <li>
+                <i style = "margin-left: 10px; font-size:26px;margin-top:3px" class="fas fa-shopping-cart"></i>
+              </li>
+            </ul>
+          </form>
+        </div>  
+      </nav>
+      <!-------------BODY--------------->
+      <!----------------------Cart-item-detail---------------------->
+      <div class="container cart-page">
+          <table>
+              <tr>
+                  <th>Sản phẩm</th>
+                  <th>Số lượng</th>
+                  <th>Giá</th>
+                  <th></th>
+              </tr>
+              <tr>
+                  <td>
+                      <div class="cart-info">
+                          <img src="https://product.hstatic.net/1000230642/product/dsmh05100xam-2_9d8f1677eed34c7f807c077d3115d951_large.jpg">
+                          <div>
+                              <p style = "margin-bottom: 5px;">Giày bitis</p>
+                              <small>Giá: 500,000 VND</small><br>
+                              <a href="">Xóa</a>
+                          </div>
+                      </div>
+                  </td>
+                  <td style = "width: 20%"><input type="number" value="1"></td>
+                  <td style = "width:10%">500,000 VND</td>
+                  <td style="width: 20%;">
+                    <input type="submit" value="Thêm vào giỏ">
+                  </td>
+              </tr>
+              <tr><td colspan="4" style = "padding:0 0"><hr></td></tr>
+              <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://product.hstatic.net/1000230642/product/dsmh0500xdg-2_1e5fbe11780b4564b4959fe8750cc113_large.jpg">
+                        <div>
+                            <p style = "margin-bottom: 5px;">Giày bitis</p>
+                            <small>Giá: 500,000 VND</small><br>
+                            <a href="">Xóa</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>500,000 VND</td>
+                <td>
+                    <input type="submit" value="Thêm vào giỏ">
+                </td>
+            </tr>
+            <tr><td colspan="4" style = "padding:0 0"><hr></td></tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="https://product.hstatic.net/1000230642/product/dsmh03800cam-2_c9318f627fa84466aeb18a25853a6503_large.jpg">
+                        <div>
+                            <p style = "margin-bottom: 5px;">Giày bitis</p>
+                            <small>Giá: 500,000 VND</small><br>
+                            <a href="">Xóa</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>500,000 VND</td>
+                <td>
+                    <input type="submit" value="Thêm vào giỏ">
+                </td>
+            </tr>
+            <tr><td colspan="4" style = "padding:0 0"><hr></td></tr>
+          </table>
+      </div><!--container-->
+      
+
+       <!-- footer -->
+
+       <div class = "container-fluid" style = "padding-left: 100px; padding-right: 50px; background-color: #F5F5F5; margin-top: 30px;">
+        <div class = "row">
+          <div class = "col-md-3" style = "padding-top: 15px">
+            <div style = "float: left; width:20%">
+              <img style = "width:50px" src = "https://theme.hstatic.net/200000238513/1000665981/14/srv_1.png?v=23">
+            </div>
+            <div class = "footer.k1">
+              <b>Miễn phí vận chuyển</b>
+              <p>Miễn phí vận chuyển nội thành</p>
+            </div>
+          </div>
+
+          <div class = "col-md-3" style = "padding-top: 15px">
+            <div style = "float: left; width:20%">
+              <img style = "width:50px" src = "https://theme.hstatic.net/200000238513/1000665981/14/srv_2.png?v=23">
+            </div>
+            <div class = "footer.k1">
+              <b>Đổi trả hàng</b>
+              <p>Đổi trả lên tới 30 ngày</p>
+            </div>
+          </div>
+
+          <div class = "col-md-3" style = "padding-top: 15px">
+            <div style = "float: left; width:20%">
+              <img style = "width:50px" src = "https://theme.hstatic.net/200000238513/1000665981/14/srv_3.png?v=23">
+            </div>
+            <div class = "footer.k1">
+              <b>Tiết kiệm thời gian</b>
+              <p>Mua sắm dễ hơn khi online</p>
+            </div>
+          </div>
+          <div class = "col-md-3" style = "padding-top: 15px">
+            <div style = "float: left; width:20%">
+              <img style = "width:50px" src = "https://theme.hstatic.net/200000238513/1000665981/14/srv_4.png?v=23">
+            </div>
+            <div class = "footer.k1">
+              <b>Tư vấn trực tiếp</b>
+              <p>Đội ngũ tư vấn nhiệt tình</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class = "jumbotron" style = "margin-bottom: 0px;padding-bottom: 3px;">
+        <div class = "row" style = "padding-left: 70px;">
+          <div class  = "col-md-4">
+            <h2>Về RoyalShoes</h2>
+            <p style = "text-align: left; width: 350px">
+              RoyalShoes trang mua sắm trực tuyến của thương hiệu giày, thời trang nam, nữ, phụ kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất.
+            </p>
+            <img class = "logo-footer" src="https://theme.hstatic.net/1000375638/1000671808/14/logo-bct.png?v=97">
+            <div class = "social-list">
+              <a href=""><img src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-128.png" height="30" width="30"></a>
+					    <a href=""><img src="https://cdn3.iconfinder.com/data/icons/transparent-on-dark-grey/500/icon-04-128.png" height="30" width="30"></a>
+					    <a href=""><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-128.png" height="30" width="30" ></a>
+					    <a href=""><img src="https://www.pngkit.com/png/full/13-133510_pinterest-icon-pinterest-black-white-png-and-vector.png" height="30" width="30"></a>
+            </div>
+          </div>
+          <div class  = "col-md-4">
+            <h2>Trợ giúp</h2>
+            <ul class = "nav-a" style = "list-style-type:none; padding-left: 0px">
+              <li><a href = "#" style = "color:black">-&emsp;Tìm kiếm</a></li>
+              <li><a href = "#"style = "color: black">-&emsp;Giới thiệu</a></li>
+              <li><a href = "#"style = "color:black">-&emsp;Chính sách đổi trả</a></li>
+              <li><a href = "#"style = "color:black">-&emsp;Chính sách bảo mật</a></li>
+              <li><a href = "#"style = "color:black">-&emsp;Điều khoản dịch vụ</a></li>
+            </ul>
+          </div>
+          <div class  = "col-md-4">
+            <h2>Thông tin liên hệ</h2>
+            <span>-&emsp;Địa chỉ: 460 Trần Đại Nghĩa, Ngũ Hành Sơn, Đà Nẵng</span><br>
+            <span>-&emsp;Điện thoại: 0968604438</span><br>
+            <span>-&emsp;Fax: 1900.636.099</span><br>
+            <span>-&emsp;Hộp thư: ldatuan.20it7@vku.udn.vn</span>
+          </div>
+        </div>
+        <div class = "col-md-12 justify-content-center">
+          <hr>
+          <p style = "text-align:center;">Copyright © 2021 RoyalShoes. Powered by Tuanle</p>
+        </div>
+      </div>
+    </BODY>
+</HTML>

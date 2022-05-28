@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quản lí đơn hàng</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        <link rel="stylesheet" type= "text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--header-->
+        <nav class="navbar navbar-expand-md bg-light shadow-lg navbar-light sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar" style = "padding-top:0px; padding-bottom:0px">
+              <a class="navbar-brand" href="#"><img src = "../Images/logo.png" style = "width:100px; height:70px"></a>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="AdHome.html" style = "color: black; font-size:20px">ManagerProduct</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style = "color: black; font-size:20px">ManagerAccount</a>
+                </li>
+              </ul>
+            </div>  
+          </nav>
+        <!--header-->
+        <!--body-->
+        <div class="container">
+            <h2 style = "margin-top:50px">Quản lí tài đơn hàng</h2>
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th style = "color:red">Mã đơn hàng</th>
+                  <th style = "color:red">Họ tên</th>
+                  <th style = "color:red">Sđt</th>
+                  <th style = "color:red">Trạng thái</th>
+                  <th style = "color:red">Tổng tiền (VNĐ)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                   <td>1</td>
+                  <td>Lê Đức Anh Tuấn</td>
+                  <td>0968604438</td>
+                  <td>
+                      <select>
+                          <option>Đơn hàng mới</option>
+                          <option>Đang xử lí</option>
+                          <option>Hoàn tất</option>
+                      </select>
+                  </td>
+                  <td>1,000,000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                   <td>Hoàng Lệ Thủy</td>
+                   <td>0968604438</td>
+                   <td>
+                       <select>
+                           <option>Đơn hàng mới</option>
+                           <option>Đang xử lí</option>
+                           <option>Hoàn tất</option>
+                       </select>
+                   </td>
+                   <td>1,500,000</td>
+                 </tr>
+                 <tr>
+                    <td>3</td>
+                   <td>Nguyễn Khắc Đông</td>
+                   <td>0968604438</td>
+                   <td>
+                       <select>
+                           <option>Đơn hàng mới</option>
+                           <option>Đang xử lí</option>
+                           <option>Hoàn tất</option>
+                       </select>
+                   </td>
+                   <td>2,000,000</td>
+                 </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        <!--body-->
+    </body>
+</html>
